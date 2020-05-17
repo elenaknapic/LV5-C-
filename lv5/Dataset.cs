@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace lv5
 {
     //Z3
-    class Dataset
+    class Dataset : IDataset
     {
         private string filePath;
         private List<List<string>> data;
