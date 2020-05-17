@@ -28,7 +28,7 @@ namespace lv5
             {
                 if (this.dataset == null)
                 {
-                    this.dataset = new Dataset("LV5.cvs");
+                    this.dataset = new Dataset("dat.cvs");
                 }
                 return this.dataset.GetData();
             }
